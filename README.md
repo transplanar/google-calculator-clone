@@ -31,3 +31,10 @@ This project is a clone of google calculator with all the features made in vue 3
 - ``n for ln(``
 - ``e for e``
 
+# contributions
+
+pull requests are welcome.
+
+
+
+
