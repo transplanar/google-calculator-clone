@@ -22,3 +22,12 @@ This project is a clone of google calculator with all the features made in vue 3
 
 # shortcuts
 
+- ``s for sin(``
+- ``c for cos(``
+- ``t for tan(``
+- ``p for π``
+- ``q for √(``
+- ``l for log(``
+- ``n for ln(``
+- ``e for e``
+
