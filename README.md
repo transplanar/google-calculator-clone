@@ -3,6 +3,8 @@
 This project is a clone of google calculator with all the features made in vue 3 + typescript.
 
 
+![screenshot](https://github.com/warlock1996/google-calculator-clone/blob/main/src/assets/Screenshot%20from%202022-08-16%2012-13-51.png)
+
 # Features
 
 - support for long & complex mathematical expressions
