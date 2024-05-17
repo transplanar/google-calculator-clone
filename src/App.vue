@@ -54,7 +54,7 @@ const { isInvalidInput, inputs, expression, isInv, inputHandler } =
             <button @click="inputHandler('%')">%</button>
           </td>
           <td>
-            <button data-test-id="backspace" @click="inputHandler('Backspace')">
+            <button data-test-id="AC" @click="inputHandler('Backspace')">
               AC
             </button>
           </td>
@@ -93,7 +93,12 @@ const { isInvalidInput, inputs, expression, isInv, inputHandler } =
             </button>
           </td>
           <td>
-            <button @click="inputHandler('/')">÷</button>
+            <button 
+              @click="inputHandler('/')"
+              data-test-id="÷"
+              >
+              ÷
+            </button>
           </td>
         </tr>
         <tr>
@@ -130,7 +135,12 @@ const { isInvalidInput, inputs, expression, isInv, inputHandler } =
             </button>
           </td>
           <td>
-            <button @click="inputHandler('*')">×</button>
+            <button 
+            @click="inputHandler('*')"
+            data-test-id="×"
+            >
+            ×
+          </button>
           </td>
         </tr>
         <tr>
@@ -165,7 +175,12 @@ const { isInvalidInput, inputs, expression, isInv, inputHandler } =
             </button>
           </td>
           <td>
-            <button @click="inputHandler('-')">−</button>
+            <button 
+              @click="inputHandler('-')"
+              data-test-id="-"
+              >
+              −
+            </button>
           </td>
         </tr>
         <tr>
@@ -194,7 +209,7 @@ const { isInvalidInput, inputs, expression, isInv, inputHandler } =
           </td>
           <td>
             <button
-              data-test-id="Enter"
+              data-test-id="="
               class="blue bold"
               @click="inputHandler('Enter')"
             >
@@ -202,7 +217,12 @@ const { isInvalidInput, inputs, expression, isInv, inputHandler } =
             </button>
           </td>
           <td>
-            <button @click="inputHandler('+')">+</button>
+            <button 
+              @click="inputHandler('+')"
+              data-test-id="+"
+            >
+              +
+            </button>
           </td>
         </tr>
       </tbody>
